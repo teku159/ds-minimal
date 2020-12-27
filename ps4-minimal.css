@@ -33,7 +33,7 @@
     height: 55px;
 }
 .custom .button{
-    position: relative;
+    position: static;
     width: 55px;
     height: 55px;
     background: url(http://gamepadviewer.com/ps4-assets/face.svgz);
