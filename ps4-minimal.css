@@ -43,6 +43,7 @@
 }
 .custom .a{
     background-position: 0px 0;
+    position: absolute;
     top: 0;
     right: 0;
 }
