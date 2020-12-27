@@ -36,26 +36,26 @@
 .custom .button{
     position: absolute;
     float: left;
-    width: 55px;
-    height: 55px;
+    width: 54.6px;
+    height: 54.6px;
     background: url(http://gamepadviewer.com/ps4-assets/face.svgz);
 }
 .custom .button.pressed{
-    background-position-y: -55px;
+    background-position-y: -54.6px;
 }
 .custom .a{
     background-position: 0px 0;
     left: 0;
 }
 .custom .b{
-    background-position: -55px 0;
-    left: 55px;
+    background-position: -54.6px 0;
+    left: 54.6px;
 }
 .custom .x{
-    background-position: -110px 0;
-    left: 110px;
+    background-position: -109.2px 0;
+    left: 109.2x;
 }
 .custom .y{
-    background-position: -165px 0;
-    left: 165px;
+    background-position: -163.9px 0;
+    left: 163.8px;
 }
