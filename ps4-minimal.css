@@ -1,32 +1,37 @@
 .controller .custom{
-    height: 400px;
+    background-color: dimgray;
+    height: 56px;
     width: 400px;
 }
 .custom .disconnected {
+    background-color: sienna;
 }
 
 .custom .disconnected div {
     display: none;
 }
-/*
+
+.custom .arrows{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+}
 .custom .back, .custom .start{
     background: url(http://gamepadviewer.com/ps4-assets/start.svgz);
-    width: 34px;
+    width: 28px;
     height: 46px;
+    margin-top: 5px;
 }
 .custom .back.pressed, .custom .start.pressed{
     background-color: lightblue;
 }
 .custom .back{
-    float: left;
-    width: 28px;
+    left 0;
 }
 .custom .start{
-    float: right;
-    width: 28px;
-    background-position: 28px 0;
+    left: 28px;
 }
-*/
+
 .custom .abxy{
     position: absolute;
     float: left;
