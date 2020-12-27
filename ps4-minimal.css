@@ -10,51 +10,53 @@
 .custom .disconnected div {
     display: none;
 }
-/*
+
+/* DPad*/
+
 .custom .dpad{
     position: absolute;
-    width: 140px;
-    height: 132px;
-    top: 192px;
-    left: 74px;
+    width: 175px;
+    height: 56px;
+    lefT:-175px;
 }
 .custom .face{
-    background: url(ps3-assets/dpad.png);
+    background: url(http://gamepadviewer.com/ps4-assets/dpad.svgz);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
-    width: 38px;
-    height: 52px;
+    width: 35px;
+    height: 51px;
+    margin-top: 2.5px;
 }
 .custom .face.left, .custom .face.right{
-    width: 52px;
-    height: 38px;
+    width: 51px;
+    height: 35px;
+    margin-top: 10.5px;
 }
 .custom .face.up{
-    left: 50px;
-    top: 0;
-    background-position: 92px 0px;
+    left: 0;
+    background-position: 35px 0px;
 }
 .custom .face.down{
-    left: 50px;
-    top: 79px;
-    background-position: 131px 0;
+    left: 51px;
+    background-position: 0px 0;
 }
 .custom .face.left{
-    top: 47px;
-    left: 0;
-    background-position: 0px 0;
+    left: 70px;
+    background-position: 70px 0;
 }
 .custom .face.right{
     top: 47px;
-    right: 0px;
-    background-position: 53px 0;
+    left: 121px;
+    background-position: 121px 0;
 }
 .custom .face.pressed{
     margin-top: 5px;
     background-position-y: 52px;
 }
-*/
+
+/* Share & Option*/
+
 .custom .arrows{
     position: absolute;
     width: 56px;
@@ -76,6 +78,8 @@
 .custom .start{
     left: 28px;
 }
+
+/* Face Buttons*/
 
 .custom .abxy{
     position: absolute;
