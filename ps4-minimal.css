@@ -30,18 +30,18 @@
 .custom .abxy{
     position: absolute;
     float: left;
-    width: 220px;
-    height: 55px;
+    width: 224px;
+    height: 56px;
 }
 .custom .button{
     position: absolute;
     float: left;
-    width: 55px;
-    height: 55px;
+    width: 56px;
+    height: 56px;
     background: url(http://gamepadviewer.com/ps4-assets/face.svgz);
 }
 .custom .button.pressed{
-    background-position-y: -54.6px;
+    background-position-y: -56px;
 }
 .custom .a{
     background-position: 0px 0;
