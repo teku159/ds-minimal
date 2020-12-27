@@ -1,7 +1,6 @@
 .controller .custom{
-    background: url(http://gamepadviewer.com/ps4-assets/base.svgz);
-    height: 45px;
-    width: 800px;
+    height: 0px;
+    width: 0px;
 }
 .custom .disconnected {
 }
@@ -9,26 +8,6 @@
 .custom .disconnected div {
     display: none;
 }
-.custom .triggers{
-    width: 586px;
-    height: 65px;
-    position: absolute;
-    left: 99px;
-}
-.custom .trigger{
-    width:86px;
-    height:65px;
-    background: url(http://gamepadviewer.com/ps4-assets/triggers.svgz);
-    opacity: 0;
-}
-
-.custom .trigger .left{ 
-    float: left;
-}
-.custom .trigger .right{
-    float: right;
-}
-
 .custom .arrows{
     position: absolute;
     width: 205px;
@@ -40,20 +19,20 @@
 .custom .back, .custom .start{
     background: url(http://gamepadviewer.com/ps4-assets/start.svgz);
     width: 34px;
-    height: 19px;
+    height: 46px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background-position-y: -21px;
+    background-position-y: -28px;
     margin-top: 2px;
 }
 .custom .back{
     float: left;
-    width: 38px;
+    width: 28px;
 }
 .custom .start{
     float: right;
-    width: 36px;
-    background-position: 37px 0;
+    width: 28px;
+    background-position: 28px 0;
 }
 
 .custom .abxy{
@@ -66,8 +45,8 @@
 
 .custom .button{
     position: absolute;
-    width:54px;
-    height:54px;
+    width: 54px;
+    height: 54px;
     background: url(http://gamepadviewer.com/ps4-assets/face.svgz);
 }
 .custom .button.pressed{
@@ -75,50 +54,22 @@
     margin-top: 5px;
 }
 .custom .a{
-    background-position: 62px 0;
+    background-position: 0px 0;
     top: 142px;
     left: 71px;
 }
 .custom .b{
-    background-position: 125px 0;
+    background-position: 54px 0;
     top: 71px;
     right: 0px;
 }
 .custom .x{
-    background-position: 0 0;
+    background-position: 108 0;
     top: 71px;
 }
 .custom .y{
-    background-position: -63px 0;
+    background-position: 162px 0;
     left: 71px;
-}
-
-.custom .sticks{
-    position: absolute;
-    width: 364px;
-    height: 105px;
-    top: 328px;
-    left: 210px;
-}
-.custom .stick{
-    position: absolute;
-    background: url(http://gamepadviewer.com/ps4-assets/sticks.svgz);
-    height:105px;
-    width: 105px;
-}
-.custom .stick.pressed.left{
-    background-position-x: -106px;
-}
-.custom .stick.pressed.right{
-    background-position-x: -211px;
-}
-.custom .stick.left{
-    top: 0;
-    left: 0;
-}
-.custom .stick.right{
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
 }
 
 .custom .dpad{
