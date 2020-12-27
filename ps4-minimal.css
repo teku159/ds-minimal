@@ -28,12 +28,10 @@
 }
 */
 .custom .abxy{
-    position: absolute;
     width: 218.6px;
     height: 54.65px;
 }
 .custom .button{
-    position: absolute;
     width: 54.65px;
     height: 54.65px;
     background: url(http://gamepadviewer.com/ps4-assets/face.svgz);
@@ -43,9 +41,6 @@
 }
 .custom .a{
     background-position: 0px 0;
-    position: absolute;
-    top: 0;
-    right: 0;
 }
 /*.custom .b{
     background-position: 54.65px 0;
