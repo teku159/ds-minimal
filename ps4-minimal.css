@@ -48,14 +48,14 @@
     left: 0;
 }
 .custom .b{
-    background-position: 55px 0;
+    background-position: -55px 0;
     left: 55px;
 }
 .custom .x{
-    background-position: 110px 0;
+    background-position: -110px 0;
     left: 110px;
 }
 .custom .y{
-    background-position: 165px 0;
+    background-position: -165px 0;
     left: 165px;
 }
