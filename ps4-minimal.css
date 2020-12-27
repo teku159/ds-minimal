@@ -43,16 +43,16 @@
 .custom .button.pressed{
     background-position-y: -56px;
 }
+.custom .x{
+    background-position: -112px 0;
+    left: 0;
+}
 .custom .a{
     background-position: 0px 0;
-    left: 0;
+    left: 56px;
 }
 .custom .b{
     background-position: -56px 0;
-    left: 56px;
-}
-.custom .x{
-    background-position: -112px 0;
     left: 112px;
 }
 .custom .y{
