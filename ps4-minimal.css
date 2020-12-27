@@ -61,6 +61,7 @@
     height: 56px;
 }
 .custom .back, .custom .start{
+    position: absolute;
     background: url(http://gamepadviewer.com/ps4-assets/start.svgz);
     width: 28px;
     height: 47px;
