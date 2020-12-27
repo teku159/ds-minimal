@@ -1,24 +1,23 @@
 .controller .custom{
     background: url(http://gamepadviewer.com/ps4-assets/base.svgz);
-    height: 558px;
-    width: 784px;
+    height: 45px;
+    width: 800px;
 	margin-left: -375px;
-    margin-top: -285px;
+	margin-top: -285px;
 }
-.custom .disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(http://gamepadviewer.com/ps4-assets/disconnected.svgz);
+.custom .disconnected {
 }
-/* This hides the controller's button when disconnected so only the background image remains */ 
+
 .custom .disconnected div {
     display: none;
 }
-.custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+.custom .triggers{
     width: 586px;
     height: 65px;
     position: absolute;
     left: 99px;
 }
-.custom .trigger{/* These are the actual triggers themselves */
+.custom .trigger{
     width:86px;
     height:65px;
     background: url(http://gamepadviewer.com/ps4-assets/triggers.svgz);
@@ -39,7 +38,7 @@
     top: 250px;
     left: 291px;
 }
-/* Setting the size and CSS sprite for the start adn select buttons */
+
 .custom .back, .custom .start{
     background: url(http://gamepadviewer.com/ps4-assets/start.svgz);
     width: 34px;
@@ -58,7 +57,7 @@
     width: 36px;
     background-position: 37px 0;
 }
-/* Positioning and size of the container for the face buttons */
+
 .custom .abxy{
     position: absolute;
     width: 204px;
@@ -66,7 +65,7 @@
     top: 156px;
     left: 538px;
 }
-/* base class used to simplify the sprite mapping */
+
 .custom .button{
     position: absolute;
     width:62px;
@@ -95,9 +94,7 @@
     background-position: -63px 0;
     left: 71px;
 }
-/* Analog sticks follow the same principles as the triggers in terms of positioning
-Note that the rotation of the sticks in hard coded with javascript, so it applies 
-the CSS inline. */
+
 .custom .sticks{
     position: absolute;
     width: 364px;
@@ -125,7 +122,7 @@ the CSS inline. */
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
-/* Dpad possitioning and sizing */
+
 .custom .dpad{
     position: absolute;
     width: 140px;
