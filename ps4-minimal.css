@@ -36,8 +36,8 @@
 .custom .button{
     position: absolute;
     float: left;
-    width: 54.6px;
-    height: 54.6px;
+    width: 55px;
+    height: 55px;
     background: url(http://gamepadviewer.com/ps4-assets/face.svgz);
 }
 .custom .button.pressed{
