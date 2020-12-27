@@ -1,6 +1,6 @@
 .controller .custom{
-    height: 0px;
-    width: 0px;
+    height: 4000px;
+    width: 400px;
 }
 .custom .disconnected {
 }
@@ -10,7 +10,7 @@
 }
 .custom .arrows{
     position: absolute;
-    width: 205px;
+    width: 200px;
     height: 19px;
     top: 250px;
     left: 291px;
@@ -22,8 +22,7 @@
     height: 46px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background-position-y: -28px;
-    margin-top: 2px;
+    background-color: lightblue;
 }
 .custom .back{
     float: left;
@@ -38,15 +37,13 @@
 .custom .abxy{
     position: absolute;
     width: 204px;
-    height: 205px;
-    top: 156px;
-    left: 538px;
+    height: 64px;
 }
 
 .custom .button{
     position: absolute;
-    width: 54px;
-    height: 54px;
+    width: 204px;
+    height: 64px;
     background: url(http://gamepadviewer.com/ps4-assets/face.svgz);
 }
 .custom .a{
