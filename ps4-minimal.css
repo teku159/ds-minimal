@@ -49,27 +49,25 @@
     height: 54px;
     background: url(http://gamepadviewer.com/ps4-assets/face.svgz);
 }
-.custom .button.pressed{
-    background-position-y: -64px;
-    margin-top: 5px;
-}
 .custom .a{
     background-position: 0px 0;
-    top: 142px;
-    left: 71px;
+    top: 0px;
+    left: 0px;
 }
 .custom .b{
     background-position: 54px 0;
-    top: 71px;
-    right: 0px;
+    top: 0px;
+    right: 54px;
 }
 .custom .x{
     background-position: 108 0;
-    top: 71px;
+    top: 0px;
+    right: 108px;
 }
 .custom .y{
     background-position: 162px 0;
-    left: 71px;
+    top: 0px;
+    right: 162px;
 }
 
 .custom .dpad{
