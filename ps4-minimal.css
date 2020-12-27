@@ -1,5 +1,5 @@
 .controller .custom{
-    height: 4000px;
+    height: 400px;
     width: 400px;
 }
 .custom .disconnected {
@@ -8,7 +8,7 @@
 .custom .disconnected div {
     display: none;
 }
-
+/*
 .custom .back, .custom .start{
     background: url(http://gamepadviewer.com/ps4-assets/start.svgz);
     width: 34px;
@@ -26,13 +26,12 @@
     width: 28px;
     background-position: 28px 0;
 }
-
+*/
 .custom .abxy{
     position: absolute;
     width: 218.6px;
     height: 54.65px;
 }
-
 .custom .button{
     position: absolute;
     width: 54.65px;
@@ -47,7 +46,7 @@
     top: 0;
     right: 0;
 }
-.custom .b{
+/*.custom .b{
     background-position: 54.65px 0;
     top: 0;
     right: 54.65px;
@@ -61,4 +60,4 @@
     background-position: 163.95px 0;
     top: 0;
     right: 163.95px;
-}
+}*/
