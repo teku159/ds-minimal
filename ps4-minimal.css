@@ -1,7 +1,7 @@
 /*PS4 Minimal*/
 
 .controller.custom{ 
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/base.svgz);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/base.svg);
     height: 231px;
     width: 655px;
 }
@@ -20,7 +20,7 @@
 .custom .trigger{
     width: 55px;
     height: 31px;
-    background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/bumper.svgz);
+    background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/bumper.svg);
     opacity: 0;
 }
 .custom .trigger.left{ 
@@ -50,10 +50,10 @@
 .custom .bumper{
     width: 55px;
     height: 31px;
-    background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/bumper.svgz);
+    background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/bumper.svg);
     opacity: 0;
 }
-.custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
+.custom .bumper.pressed{
     opacity: 1;
 }
 .custom .bumper.left{
@@ -68,7 +68,7 @@
 	width: 162px;
 	top: 6px;
 	left: 246px;
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/touch.svgz);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/touch.svg);
 	opacity: 0;
 }
 .custom .touchpad.pressed{
