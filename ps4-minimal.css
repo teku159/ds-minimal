@@ -43,9 +43,9 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/base.svg);
-    height: 602px;
-    width: 1082px;
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/base.svg);
+    height: 232px;
+    width: 655px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     /*background: url(ps3-assets/base-disconnect.png);*/
@@ -55,14 +55,15 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 968px;
-    height: 51px;
+    left: 34px;
+	width: 586px;
+    height: 31px;
     position: absolute;
     /*left: 99px;*/
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width: 90px;
-    height: 51px;
+    width: 55px;
+    height: 31px;
     background: url(triggers.svg);
     opacity: 0;
 }
@@ -80,15 +81,14 @@ above to achieve the desired position. */
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumpers{
-    width: 968px;
-    height: 51px;
+	left: 100px;
+    width: 456px;
+    height: 31px;
     position: absolute;
-    /*left: 99px;
-    top: 72px;*/
 }
 .custom .bumper{
-    width: 90px;
-    height: 51px;
+    width: 55px;
+    height: 31px;
     background: url(bumpers.svg);
     opacity: 0;
 }
@@ -97,12 +97,6 @@ placement */
     opacity: 1;
 }
 .custom .bumper.left{
-  /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
-  and I can just rotate them in the browser? Also, note that you most likely won't need
-  to use a browser speficic prefix unless it's something that is indeed browser specific.
-  NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
     float: left;
 }
 .custom .bumper.right{
@@ -123,10 +117,10 @@ something as pedantic as a name. */
 /* Since the player indicator is just a CSS sprite, we change the 
 position of the background to match the player number.
 NOTE: Player orderin starts at 0, so p0 = Player 1 */
-.custom .p0{
+/*.custom .p0{
     background-position: 0 -6px;
 }
-/*.custom .p1{
+.custom .p1{
     background-position: 0 -28px;
 }
 .custom .p2{
@@ -139,47 +133,46 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 205px;
-    height: 19px;
-    top: 250px;
-    left: 291px;
+    width: 283px;
+    height: 57px;
+    top: 15px;
+    left: 186px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
-/*.custom .back, .custom .start{
-    background: url(option.svg);
-    width: 71px;
-    height: 94px;
-}*/
+.custom .back, .custom .start{
+    width: 43px;
+    height: 57px;
+	opacity: 0;
+}
 .custom .back.pressed, .custom .start.pressed{
-    /*background-position-y: -21px;
-    margin-top: 2px;*/
+	opacity: 1;
 }
 .custom .back{
-	background: url(share.svg);
-    width: 71px;
-    height: 94px;
+	-webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+	float: left;
+    /*width: 71px;
+    height: 94px;*/
 }
 .custom .start{
-	background: url(option.svg);
-	width: 71px;
+	float: right;
+	/*width: 71px;
     height: 94px;
-    /*float: right;
-    width: 36px;
     background-position: 37px 0;*/
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
-    width: 311px;
-    height: 311px;
-    /*top: 156px;
-    left: 538px;*/
+    width: 170px;
+    height: 170px;
+    top: 51px;
+    left: 475px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:90px;
-    height:90px;
+    width: 55px;
+    height: 55px;
     /*background: url(face-buttons.svg);*/
 	background: url(https://gamepadviewer.com/ps4-assets/face.svgz);
 }
@@ -189,43 +182,43 @@ start and select buttons. */
 }
 .custom .a{
     background-position: 62px 0;
-    /*top: 142px;
-    left: 71px;*/
+    top: 142px;
+    left: 71px;
 }
 .custom .b{
     background-position: 125px 0;
-    /*top: 71px;
-    right: 0px;*/
+    top: 71px;
+    right: 0px;
 }
 .custom .x{
     background-position: 0 0;
-    /*/top: 71px;*/
+    top: 71px;
 }
 .custom .y{
     background-position: -63px 0;
-    /*left: 71px;*/
+    left: 71px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
 the CSS inline. */
 .custom .sticks{
     position: absolute;
-    width: 364px;
-    height: 105px;
-    top: 328px;
-    left: 210px;
+    width: 239px;
+    height: 92px;
+    top: 208px;
+    left: 119px;
 }
 .custom .stick{
     position: absolute;
     background: url(thumbs.svg);
-    height:105px;
-    width: 105px;
+    height: 94px;
+    width: 94px;
 }
 .custom .stick.pressed.left{
-    background-position-x: -106px;
+    background-position-x: -96px;
 }
 .custom .stick.pressed.right{
-    background-position-x: -211px;
+    background-position-x: -192px;
 }
 .custom .stick.left{
     top: 0;
@@ -238,41 +231,41 @@ the CSS inline. */
 /* Dpad possitioning and sizing */
 .custom .dpad{
     position: absolute;
-    width: 140px;
-    height: 132px;
-    top: 192px;
-    left: 74px;
+    width: 125px;
+    height: 125px;
+    top: 32px;
+    left: 73px;
 }
 .custom .face{
-    background: url(dpad.svg);
+    /*background: url(dpad.svg);*/
 	background: url(https://gamepadviewer.com/ps4-assets/dpad.svgz);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
-    width: 38px;
-    height: 52px;
+    width: 35px;
+    height: 51px;
 }
 .custom .face.left, .custom .face.right{
-    width: 52px;
-    height: 38px;
+    width: 51px;
+    height: 35px;
 }
 .custom .face.up{
-    left: 50px;
+    left: 45px;  -32
     top: 0;
     background-position: 92px 0px;
 }
 .custom .face.down{
-    left: 50px;
-    top: 79px;
+    left: 45px;
+    top: 74px;
     background-position: 131px 0;
 }
 .custom .face.left{
-    top: 47px;
+    top: 45px;
     left: 0;
     background-position: 0px 0;
 }
 .custom .face.right{
-    top: 47px;
+    top: 45px;
     right: 0px;
     background-position: 53px 0;
 }
