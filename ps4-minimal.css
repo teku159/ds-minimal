@@ -13,12 +13,12 @@
 }
 .custom .triggers{
     left: 34px;
-	width: 587px;
+	width: 586px;
     height: 31px;
     position: absolute;
 }
 .custom .trigger{
-    width: 56px;
+    width: 55px;
     height: 32px;
     background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/bumper.svg);
     opacity: 0;
@@ -42,13 +42,13 @@
     
 }
 .custom .bumpers{
-	left: 100px;
+	left: 99px;
     width: 456px;
     height: 31px;
     position: absolute;
 }
 .custom .bumper{
-    width: 56px;
+    width: 55px;
     height: 32px;
     background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/bumper.svg);
     opacity: 0;
@@ -113,11 +113,11 @@
 	opacity: 1;
 }
 .custom .back{
-	-webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
 	float: left;
 }
 .custom .start{
+	-webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 	float: right;
 }
 .custom .abxy{
@@ -164,8 +164,8 @@
 .custom .stick{
     position: absolute;
     background: url(https://gamepadviewer.com/ps4-assets/sticks.svgz);
-    height: 92px; /*94*/
-    width: 92px;
+    height: 94px; /*94*/
+    width: 94px;
 }
 .custom .stick.pressed.left{
     background-position-x: -96px;
@@ -178,8 +178,8 @@
     left: 0;
 }
 .custom .stick.right{
-    top: calc(100% - 92px); /*105*/
-    left: calc(100% - 92px);
+    top: calc(100% - 94px); /*105*/
+    left: calc(100% - 94px);
 }
 .custom .dpad{
     position: absolute;
@@ -221,6 +221,5 @@
     background-position: 52px 0;
 }
 .custom .face.pressed{
-    margin-top: 5px;
     background-position-y: 52px;
 }
