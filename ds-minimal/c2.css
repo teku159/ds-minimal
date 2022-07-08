@@ -141,12 +141,12 @@
     left: 58px;
 }
 .custom .b{
-    background-position: -54px 0;
+    background-position: 54px 0;
     top: 58px;
     right: 0px;
 }
 .custom .x{
-    background-position: 54px 0;
+    background-position: -54px 0;
     top: 58px;
 }
 .custom .y{
@@ -202,24 +202,24 @@
 .custom .face.up{
     left: 45px;
     top: 0;
-    background-position: -37px 0px;
+    background-position: 0 0;
 }
 .custom .face.down{
     left: 45px;
     /*top: 74px;*/
 	bottom: 0;
-    background-position: 0 0;
+    background-position: -35px 0;
 }
 .custom .face.left{
     top: 45px;
     left: 0;
-    background-position: 104px 0;
+    background-position: -86px 0;
 }
 .custom .face.right{
     top: 45px;
     right: 0;
-    background-position: 52px 0;
+    background-position: 51px 0;
 }
 .custom .face.pressed{
-    background-position-y: 52px;
+    background-position-y: 51px;
 }
