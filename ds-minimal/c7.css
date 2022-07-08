@@ -21,7 +21,6 @@
     width: 55px;
     height: 31px;
     background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/midnight-black/bumper.svg);
-    background-size: cover;
 	opacity: 0;
 }
 .custom .trigger.left{ 
@@ -52,7 +51,6 @@
     width: 55px;
     height: 31px;
     background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/midnight-black/bumper.svg);
-    background-size: cover;
 	opacity: 0;
 }
 .custom .bumper.pressed{
@@ -71,7 +69,6 @@
 	top: 8px;
 	left: 247px;
 	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/midnight-black/touch.svg);
-	background-size: cover;
 	opacity: 0;
 }
 .custom .touchpad.pressed{
@@ -109,7 +106,6 @@
     width: 41px;
     height: 55px;
 	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/midnight-black/arrow.svg);
-	background-size: cover;
 	opacity: 0;
 }
 .custom .back.pressed, .custom .start.pressed{
@@ -135,7 +131,6 @@
     width: 54px;
     height: 54px;
 	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/midnight-black/face.svg);
-	background-size: cover;
 }
 .custom .button.pressed{
     background-position-y: 54px;
@@ -195,7 +190,6 @@
 }
 .custom .face{
 	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/midnight-black/dpad.svg);
-    background-size: cover;
 	position: absolute;
 }
 .custom .face.up, .custom .face.down{
