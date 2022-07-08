@@ -1,7 +1,7 @@
 /*PS4 Minimal*/
 
 .controller.custom{ 
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/base.svg);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-skin-v1/base.svg);
     height: 230px;
     width: 654px;
 }
@@ -20,7 +20,7 @@
 .custom .trigger{
     width: 55px;
     height: 32px;
-    background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/bumper.svg);
+    background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-skin-v1/bumper.svg);
     opacity: 0;
 }
 .custom .trigger.left{ 
@@ -50,7 +50,7 @@
 .custom .bumper{
     width: 55px;
     height: 32px;
-    background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/bumper.svg);
+    background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-skin-v1/bumper.svg);
     opacity: 0;
 }
 .custom .bumper.pressed{
@@ -68,7 +68,7 @@
 	width: 163px;
 	top: 6px;
 	left: 246px;
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/touch.svg);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-skin-v1/touch.svg);
 	opacity: 0;
 }
 .custom .touchpad.pressed{
@@ -105,7 +105,7 @@
 .custom .back, .custom .start{
     width: 43px;
     height: 57px;
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/arrow.svg);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-skin-v1/arrow.svg);
 	opacity: 0;
 }
 .custom .back.pressed, .custom .start.pressed{
