@@ -1,5 +1,5 @@
 # Minimal Dualsense / Dualshock 4 Skins
-Minimal Dualsense / Dualshock 4 Skins for [gamepadviewer.com](http://gamepadviewer.com/)
+Minimal Dualsense / Dualshock 4 Skins for [gamepadviewer](http://gamepadviewer.com/)
 
 ## Preview
 
