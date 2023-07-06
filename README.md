@@ -1,8 +1,10 @@
 # Minimal Dualsense / Dualshock 4 Skins
 Minimal Dualsense / Dualshock 4 Skins for [gamepadviewer](http://gamepadviewer.com/)
-
+## Versions
+There are 2 versions from each skin:
+* Analogue Triggers - Default
+* Digital Triggers - *skin*-tb.css files
 ## Preview
-
 ### **Dualsense**
   * Original White
   
