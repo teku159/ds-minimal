@@ -17,16 +17,19 @@
 	height: 31px;
 	position: absolute;
 }
-.custom .trigger{
+.custom .trigger-button{
 	width: 55px;
 	height: 31px;
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/original-white/bumper.svg);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/cosmic-red/bumper.svg);
 	opacity: 0;
 }
-.custom .trigger.left{ 
+.custom .trigger-button.pressed{
+	opacity: 1;
+}
+.custom .trigger-button.left{
 	float: left;
 }
-.custom .trigger.right{
+.custom .trigger-button.right{
 	float: right;
 }
 .custom .bumpers{

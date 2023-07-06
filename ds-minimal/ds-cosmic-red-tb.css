@@ -1,7 +1,7 @@
-/*Dualsense Minimal Original White v2*/
+/*Dualsense Minimal Cosmic Red v2*/
 
 .controller.custom{ 
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/original-white/base.svg);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/cosmic-red/base.svg);
 	height: 230px;
 	width: 652px;
 }
@@ -17,16 +17,19 @@
 	height: 31px;
 	position: absolute;
 }
-.custom .trigger{
+.custom .trigger-button{
 	width: 55px;
 	height: 31px;
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/original-white/bumper.svg);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/cosmic-red/bumper.svg);
 	opacity: 0;
 }
-.custom .trigger.left{ 
+.custom .trigger-button.pressed{
+	opacity: 1;
+}
+.custom .trigger-button.left{
 	float: left;
 }
-.custom .trigger.right{
+.custom .trigger-button.right{
 	float: right;
 }
 .custom .bumpers{
@@ -38,7 +41,7 @@
 .custom .bumper{
 	width: 55px;
 	height: 31px;
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/original-white/bumper.svg);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/cosmic-red/bumper.svg);
 	opacity: 0;
 }
 .custom .bumper.pressed{
@@ -56,7 +59,7 @@
 	width: 158px;
 	top: 8px;
 	left: 247px;
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/original-white/touch.svg);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/cosmic-red/touch.svg);
 	opacity: 0;
 }
 .custom .touchpad.pressed{
@@ -72,7 +75,7 @@
 .custom .back, .custom .start{
 	width: 41px;
 	height: 55px;
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/original-white/arrow.svg);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/cosmic-red/arrow.svg);
 	opacity: 0;
 }
 .custom .back.pressed, .custom .start.pressed{
@@ -97,7 +100,7 @@
 	position: absolute;
 	width: 54px;
 	height: 54px;
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/original-white/face.svg);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/cosmic-red/face.svg);
 }
 .custom .button.pressed{
 	background-position-y: 54px;
@@ -129,7 +132,7 @@
 }
 .custom .stick{
 	position: absolute;
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/original-white/stick.svg);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/cosmic-red/stick.svg);
 	background-size: cover;
 	height: 94px;
 	width: 94px;
@@ -156,7 +159,7 @@
 	left: 32px;
 }
 .custom .face{
-	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/original-white/dpad.svg);
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/cosmic-red/dpad.svg);
 	position: absolute;
 }
 .custom .face.up, .custom .face.down{

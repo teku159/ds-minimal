@@ -29,18 +29,6 @@
 .custom .trigger.right{
 	float: right;
 }
-.custom .trigger-button.left{
-	
-}
-.custom .trigger-button.right{
-	
-}
-.custom .trigger-button.left.pressed{
-	
-}
-.custom .trigger-button.right.pressed{
-	
-}
 .custom .bumpers{
 	left: 98px;
 	width: 457px;
