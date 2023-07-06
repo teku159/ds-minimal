@@ -2,65 +2,65 @@
 
 .controller.custom{ 
 	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/ds4-jet-black/base.svg);
-    height: 230px;
-    width: 652px;
+	height: 230px;
+	width: 652px;
 }
 .custom.disconnected {
-    /*background: url(base-disconnect.png);*/
+	
 }
 .custom.disconnected div {
-    display: none;
+	display: none;
 }
 .custom .triggers{
-    left: 32px;
+	left: 32px;
 	width: 590px;
-    height: 31px;
-    position: absolute;
+	height: 31px;
+	position: absolute;
 }
 .custom .trigger{
-    width: 55px;
-    height: 31px;
-    background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/ds4-jet-black/bumper.svg);
+	width: 55px;
+	height: 31px;
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/ds4-jet-black/bumper.svg);
 	opacity: 0;
 }
 .custom .trigger.left{ 
-    float: left;
+	float: left;
 }
 .custom .trigger.right{
-    float: right;
+	float: right;
 }
 .custom .trigger-button.left{
-    
+	
 }
 .custom .trigger-button.right{
-    
+	
 }
 .custom .trigger-button.left.pressed{
-    
+	
 }
 .custom .trigger-button.right.pressed{
-    
+	
 }
 .custom .bumpers{
 	left: 98px;
-    width: 457px;
-    height: 31px;
-    position: absolute;
+	width: 457px;
+	height: 31px;
+	position: absolute;
 }
 .custom .bumper{
-    width: 55px;
-    height: 31px;
-    background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/ds4-jet-black/bumper.svg);
+	width: 55px;
+	height: 31px;
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/ds4-jet-black/bumper.svg);
 	opacity: 0;
 }
 .custom .bumper.pressed{
-    opacity: 1;
+	opacity: 1;
 }
 .custom .bumper.left{
-    float: left;
+	float: left;
 }
 .custom .bumper.right{
-    float: right;
+	float: right;
 }
 .custom .touchpad{
 	position: absolute;
@@ -74,37 +74,16 @@
 .custom .touchpad.pressed{
 	opacity: 1;
 }
-/*
-.custom .quadrant{
-    position: absolute;
-    background: url(ps3-assets/player-n.png);
-    height: 17px;
-    width: 111px;
-    top: 140px;
-    left: 240px;
-}
-.custom .p0{
-    background-position: 0 -6px;
-}
-.custom .p1{
-    background-position: 0 -28px;
-}
-.custom .p2{
-    background-position: 0 -49px;
-}
-.custom .p3{
-    background-position: 0 -70px;
-}*/
 .custom .arrows{
-    position: absolute;
-    width: 282px;
-    height: 55px;
-    top: 17px;
-    left: 185px;
+	position: absolute;
+	width: 282px;
+	height: 55px;
+	top: 17px;
+	left: 185px;
 }
 .custom .back, .custom .start{
-    width: 41px;
-    height: 55px;
+	width: 41px;
+	height: 55px;
 	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/ds4-jet-black/arrow.svg);
 	opacity: 0;
 }
@@ -116,111 +95,110 @@
 }
 .custom .start{
 	-webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+	transform: rotateY(180deg);
 	float: right;
 }
 .custom .abxy{
-    position: absolute;
-    width: 169px;
-    height: 169px;
-    top: 51px;
-    left: 473px;
+	position: absolute;
+	width: 169px;
+	height: 169px;
+	top: 51px;
+	left: 473px;
 }
 .custom .button{
-    position: absolute;
-    width: 54px;
-    height: 54px;
+	position: absolute;
+	width: 54px;
+	height: 54px;
 	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/ds4-jet-black/face.svg);
 }
 .custom .button.pressed{
-    background-position-y: 54px;
+	background-position-y: 54px;
 }
 .custom .a{
-    background-position: 108px 0;
-    bottom: 0px;
-    left: 58px;
+	background-position: 108px 0;
+	bottom: 0px;
+	left: 58px;
 }
 .custom .b{
-    background-position: 54px 0;
-    top: 58px;
-    right: 0px;
+	background-position: 54px 0;
+	top: 58px;
+	right: 0px;
 }
 .custom .x{
-    background-position: -54px 0;
-    top: 58px;
+	background-position: -54px 0;
+	top: 58px;
 }
 .custom .y{
-    background-position: 0 0;
-    left: 58px;
+	background-position: 0 0;
+	left: 58px;
 }
 .custom .sticks{
-    position: absolute;
-    width: 236px;
-    height: 93px;
-    top: 118px;
-    left: 208px;
+	position: absolute;
+	width: 236px;
+	height: 93px;
+	top: 118px;
+	left: 208px;
 }
 .custom .stick{
-    position: absolute;
-    background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/ds4-jet-black/stick.svg);
-    background-size: cover;
+	position: absolute;
+	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/ds4-jet-black/stick.svg);
+	background-size: cover;
 	height: 94px;
-    width: 94px;
+	width: 94px;
 }
 .custom .stick.pressed.left{
-    background-position-x: -94px;
+	background-position-x: -94px;
 }
 .custom .stick.pressed.right{
-    background-position-x: 94px;
+	background-position-x: 94px;
 }
 .custom .stick.left{
-    top: 0;
-    left: 0;
+	top: 0;
+	left: 0;
 }
 .custom .stick.right{
-    top: calc(100% - 94px); /*105*/
-    left: calc(100% - 94px);
+	top: calc(100% - 94px);
+	left: calc(100% - 94px);
 }
 .custom .dpad{
-    position: absolute;
-    width: 125px;
-    height: 125px;
-    top: 73px;
-    left: 32px;
+	position: absolute;
+	width: 125px;
+	height: 125px;
+	top: 73px;
+	left: 32px;
 }
 .custom .face{
 	background: url(https://raw.githubusercontent.com/teku159/teku159.github.io/main/ds-minimal/ds4-jet-black/dpad.svg);
 	position: absolute;
 }
 .custom .face.up, .custom .face.down{
-    width: 35px;
-    height: 51px;
+	width: 35px;
+	height: 51px;
 }
 .custom .face.left, .custom .face.right{
-    width: 51px;
-    height: 35px;
+	width: 51px;
+	height: 35px;
 }
 .custom .face.up{
-    left: 45px;
-    top: 0;
-    background-position: 0 0;
+	left: 45px;
+	top: 0;
+	background-position: 0 0;
 }
 .custom .face.down{
-    left: 45px;
-    /*top: 74px;*/
+	left: 45px;
 	bottom: 0;
-    background-position: -35px 0;
+	background-position: -35px 0;
 }
 .custom .face.left{
-    top: 45px;
-    left: 0;
-    background-position: -70px 0;
+	top: 45px;
+	left: 0;
+	background-position: -70px 0;
 }
 .custom .face.right{
-    top: 45px;
-    right: 0;
-    background-position: 51px 0;
+	top: 45px;
+	right: 0;
+	background-position: 51px 0;
 }
 .custom .face.pressed{
-    background-position-y: 51px;
+	background-position-y: 51px;
 }
